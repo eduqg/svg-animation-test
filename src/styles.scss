@@ -1,0 +1,44 @@
+.logo {
+  width: 400px;
+
+  .eduardo {
+    transform: translate(20px, 10px);
+    fill: black;
+    transition: 0.5s ease-in-out;
+  }
+
+  &.closed,
+  &:hover {
+    & .open-bracket {
+    }
+    & .e {
+    }
+    & .d1 {
+      transform: translate(6px, 10px);
+      opacity: 0;
+    }
+    & .u {
+      transform: translate(-10px, 10px);
+      opacity: 0;
+    }
+    & .a {
+      transform: translate(-24px, 10px);
+      opacity: 0;
+    }
+    & .r {
+      transform: translate(-38px, 10px);
+      opacity: 0;
+    }
+    & .d2 {
+      transform: translate(-50px, 10px);
+      opacity: 0;
+    }
+    & .o {
+      transform: translate(-65px, 10px);
+      opacity: 0;
+    }
+    & .close-bracket {
+      transform: translate(-65px, 10px);
+    }
+  }
+}
